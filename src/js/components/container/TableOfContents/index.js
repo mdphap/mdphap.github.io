@@ -22,8 +22,8 @@ const TableOfContents = () => (
         </PageContentItem>
       ))}
     </PageContent>
-    <PageFooter />
-    <Footer />
+    {/* <PageFooter /> */}
+    {/* <Footer /> */}
   </React.Fragment>
 );
 

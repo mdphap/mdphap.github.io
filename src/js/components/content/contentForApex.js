@@ -1,7 +1,7 @@
 export const contentsForApex = [
     {
         id: 'section-1',
-        title: 'Tabs or Spaces',
+        title: 'Thống kê doanh nghiệp 1',
         icon: ['fas', 'map-signs'],
         description: 'Everything you need to know about how we format our code and the tools we use to ensure Code Readability.',
         lastModifiedDate: '2021-10-25',
@@ -73,7 +73,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-2',
-        title: 'Naming Convention',
+        title: 'Thống kê doanh nghiệp 2',
         icon: ['fas', 'arrow-down'],
         description: 'Naming variables, classes and methods can be tedious but we make sure that our naming conventions address the meaning of the feature.',
         lastModifiedDate: '2021-10-25',
@@ -270,7 +270,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-3',
-        title: 'Trigger Handler Interface',
+        title: 'Thống kê doanh nghiệp 3',
         icon: ['fas', 'box'],
         description: 'The trigger handler interface we use to maximise trigger performance and provide uniformity across trigger patterns.',
         lastModifiedDate: '2021-10-26',
@@ -336,7 +336,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-4',
-        title: 'Trigger Pattern',
+        title: 'Thống kê doanh nghiệp 4',
         icon: ['fas', 'cogs'],
         description: 'We always want our triggers to be lean and minimalistic. Learn how we declare our triggers in coordination with our Trigger Handler Interface.',
         lastModifiedDate: '2021-10-26',
@@ -381,7 +381,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-5',
-        title: 'Query Builder Interface',
+        title: 'Thống kê doanh nghiệp 5',
         icon: ['fas', 'tools'],
         description: 'The SOQL interface we use for dynamically querying Standard and Custom Salesforce Objects.',
         lastModifiedDate: '2021-10-26',
@@ -412,7 +412,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-6',
-        title: 'Apex Security Pattern',
+        title: 'Thống kê doanh nghiệp 6',
         icon: ['fas', 'laptop-code'],
         description: 'Learn about the security patterns we use to ensure we are adhering to the Sharing Model and Field Level Security.',
         lastModifiedDate: '2021-10-26',
@@ -600,7 +600,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-7',
-        title: 'Accessing Record Types',
+        title: 'Thống kê doanh nghiệp 7',
         icon: ['fas', 'tablet-alt'],
         description: 'We like to access our record types without the need for extra queries.',
         lastModifiedDate: '2021-10-26',
@@ -625,7 +625,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-8',
-        title: 'Writing Unit Tests',
+        title: 'Thống kê doanh nghiệp 8',
         icon: ['fas', 'book-reader'],
         description: 'Writing tests is not just about Code Coverage. We want to adapt a test driven mindset and be able to ship our code with confidence. Our patterns ensure that we have considered both positive and negative scenarios of a feature.',
         lastModifiedDate: '2021-10-27',
@@ -680,7 +680,7 @@ export const contentsForApex = [
     },
     {
         id: 'section-9',
-        title: 'Apex Docs and Commenting',
+        title: 'Thống kê doanh nghiệp 9',
         icon: ['fas', 'lightbulb'],
         description: 'Our code will always be ready to generate Apex Docs. Comments also help us track changes.',
         lastModifiedDate: '2021-10-26',
