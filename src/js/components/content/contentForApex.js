@@ -200,6 +200,56 @@ export const contentsForApex = [
                             </ul>
                             `
                     },
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                b. Phần B - Khoản mục đầu tư
+                            </strong>
+                            <ul>
+                                <li>
+                                    Xây dựng cơ bản: Toàn bộ vốn bỏ ra để cho việc khảo sát quy hoạch xây dựng công trình, chuẩn bị đầu tư, thiết kế; chi xây dựng, mua sắm và lắp đặt thiết bị; các chi khác được ghi trong tổng dự toán (bao gồm cả tiền chuyển quyền sử dụng đất). Vốn đầu tư xây dựng cơ bản bao gồm: Xây dựng và lắp đặt (vốn xây lắp); Máy móc, thiết bị (vốn thiết bị) và vốn đầu tư xây dựng cơ bản khác.
+                                </li>
+                                <li>
+                                    Mua sắm tài sản cố định (TSCĐ) dùng cho sản xuất không qua xây dựng cơ bản: Là toàn bộ vốn đầu tư mua TSCĐ bổ sung thêm trong kỳ và không liên quan đến hoạt động xây dựng cơ bản.
+                                </li>
+                                <li>
+                                    Sửa chữa, nâng cấp TSCĐ: Là toàn bộ chi phí thực tế phát sinh trong kỳ cho công việc sửa chữa, duy tu, bảo dưỡng TSCĐ của doanh nghiệp (gồm chi phí phải thanh toán cho bên ngoài và chi phí cho phần doanh nghiệp tự làm).
+                                </li>
+                                <li>
+                                    Bổ sung vốn lưu động dưới dạng hiện vật bằng vốn tự có: Là vốn đầu tư bổ sung nhằm làm tăng vốn vật tư hàng hóa (chính là phần tăng hàng tồn kho) của doanh nghiệp. Phần đầu tư bổ sung vốn lưu động này được tính bằng phần chênh lệch mang giá trị dương giữa hàng tồn kho cuối kỳ và đầu kỳ.
+                                </li>
+                                <li>
+                                    Đầu tư khác: nghiên cứu khoa học…
+                                </li>
+                            </ul>
+                            `
+                    },
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                c. Phần C - Vốn đầu tư chia theo mục đích đầu tư
+                            </strong>
+                            <p>
+                                Mục đích đầu tư: Vốn đầu tư của doanh nghiệp chi ra nhằm mục đích nâng cao năng lực sản xuất của doanh nghiệp. Doanh nghiệp hoạt động sản xuất kinh doanh ngành nào thì tính mục đích đầu tư cho ngành đó (theo mã ngành cấp 2 VSIC 2007).
+                            </p>
+                            `
+                    },
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                d. Phần D - Vốn đầu tư chia theo tỉnh/thành phố trực thuộc Trung ương
+                            </strong>
+                            <p>
+                                Là vốn đầu tư của doanh nghiệp để tăng năng lực của doanh nghiệp được thực hiện trên địa điểm đứng chân của doanh nghiệp. Doanh nghiệp đứng chân tại tỉnh/thành phố nào thì vốn đầu tư được tính cho tỉnh/thành phố đó.
+                            </p>
+                            `
+                    },
                 ]
             },
         ],
