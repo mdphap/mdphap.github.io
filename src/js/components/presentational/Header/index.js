@@ -22,7 +22,7 @@ const Header = ({ withSearchEnabled }) => (
                         !!withSearchEnabled && (
                             <div className="top-search-box d-none d-lg-flex">
                                 <form className="search-form">
-                                    <input type="text" placeholder="Search the docs..." name="search"
+                                    <input type="text" placeholder="Tìm kiếm từ khóa..." name="search"
                                            className="form-control search-input" />
                                     <button type="submit" className="btn search-btn" value="Search">
                                         <FontAwesomeIcon icon={['fas', 'search']} />
@@ -32,7 +32,7 @@ const Header = ({ withSearchEnabled }) => (
                         )
                     }
 
-                    <ul className="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+                    {/* <ul className="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
                         <li className="list-inline-item"><a href="https://github.com/wearemav3rik" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} fixedWidth /></a></li>
                         <li className="list-inline-item"><a href="https://linkedin.com/company/mav3rik" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} fixedWidth /></a></li>
                         <li className="list-inline-item"><a href="https://twitter.com/wearemav3rik" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'twitter']} fixedWidth /></a></li>
@@ -41,7 +41,7 @@ const Header = ({ withSearchEnabled }) => (
                     </ul>
 
                     <a href="https://mav3rik.com" target="_blank" rel="noreferrer noopener"
-                       className="btn btn-primary d-none d-lg-flex" style={{background: 'linear-gradient(78.1deg, #8F2D56 0%, #D81159 100%)'}}>We are Hiring!</a>
+                       className="btn btn-primary d-none d-lg-flex" style={{background: 'linear-gradient(78.1deg, #8F2D56 0%, #D81159 100%)'}}>We are Hiring!</a> */}
                 </div>
 
             </div>
