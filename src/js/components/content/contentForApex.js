@@ -30,9 +30,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                1. Phiếu số 01
-                            </strong>
                             <p>
                                 Lập danh sách địa bàn
                             </p>
@@ -47,9 +44,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                2. Phiếu số 02
-                            </strong>
                             <p>
                                 Vốn đầu tư hộ
                             </p>
@@ -64,9 +58,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                3. Phiếu số 03
-                            </strong>
                             <p>
                                 Vốn đầu tư trang trại
                             </p>
@@ -81,9 +72,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                4. Phiếu số 04
-                            </strong>
                             `
                     }
                 ]
@@ -95,9 +83,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                4.1 Đối tượng áp dụng
-                            </strong>
                             <p>
                                 Phiếu này nhằm thu thập thông tin về vốn đầu tư thực hiện hàng quý của các loại hình doanh nghiệp nhà nước, doanh nghiệp ngoài nhà nước, doanh nghiệp có vốn đầu tư trực tiếp nước ngoài, hợp tác xã/liên hợp tác xã đang trong quá trình đầu tư chuẩn bị cho sản xuất kinh doanh hoặc đang hoạt động sản xuất kinh doanh được chọn vào mẫu điều tra.
                             </p>
@@ -112,9 +97,6 @@ export const contentsForApex = [
                         type: 'paragraph',
                         html:
                             `
-                            <strong>
-                                4.2 Nội dung phiếu điều tra
-                            </strong>
                             `
                     },
                     {
