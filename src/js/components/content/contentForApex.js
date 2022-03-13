@@ -7,22 +7,24 @@ export const contentsForApex = [
         lastModifiedDate: '2022-03-07',
         sections: [
             // article headline
+            // {
+            //     id: 'item-1-1', label: 'Điều tra vốn đầu tư quý',
+            //     elements: [
+            //         {
+            //             type: 'paragraph',
+            //             html:
+            //                 `
+            //                 <p style="font-weight: xxx-large">
+            //                     <strong>
+            //                         Điều tra vốn đầu tư quý
+            //                     </strong>
+            //                 </p]>
+            //                 `
+            //         }
+            //     ]
+            // },
             {
-                id: 'item-1-1', label: 'Điều tra vốn đầu tư quý',
-                elements: [
-                    {
-                        type: 'paragraph',
-                        html:
-                            `
-                            <h1>
-                                <strong>Điều tra vốn đầu tư quý</strong>
-                            </h1>
-                            `
-                    }
-                ]
-            },
-            {
-                id: 'item-1-2', label: '1. Phiếu số 01',
+                id: 'item-1-1', label: '1. Phiếu số 01',
                 elements: [
                     {
                         type: 'paragraph',
@@ -39,7 +41,7 @@ export const contentsForApex = [
                 ]
             },
             {
-                id: 'item-1-3', label: '2. Phiếu số 02',
+                id: 'item-1-2', label: '2. Phiếu số 02',
                 elements: [
                     {
                         type: 'paragraph',
@@ -56,7 +58,7 @@ export const contentsForApex = [
                 ]
             },
             {
-                id: 'item-1-4', label: '3. Phiếu số 03',
+                id: 'item-1-3', label: '3. Phiếu số 03',
                 elements: [
                     {
                         type: 'paragraph',
@@ -73,7 +75,7 @@ export const contentsForApex = [
                 ]
             },
             {
-                id: 'item-1-5', label: '4. Phiếu số 04',
+                id: 'item-1-4', label: '4. Phiếu số 04',
                 elements: [
                     {
                         type: 'paragraph',
@@ -87,7 +89,7 @@ export const contentsForApex = [
                 ]
             },
             {
-                id: 'item-1-6', label: '4.1 Đối tượng áp dụng',
+                id: 'item-1-5', label: '4.1 Đối tượng áp dụng',
                 elements: [
                     {
                         type: 'paragraph',
@@ -104,7 +106,7 @@ export const contentsForApex = [
                 ]
             },
             {
-                id: 'item-1-7', label: '4.2 Nội dung phiếu điều tra',
+                id: 'item-1-6', label: '4.2 Nội dung phiếu điều tra',
                 elements: [
                     {
                         type: 'paragraph',
@@ -133,6 +135,8 @@ export const contentsForApex = [
                                     Sheet 2: Danh mục Công trình dự án trọng điểm
                                 </li>
                             </ul>
+                            <br/>
+                            <img src="https://github.com/mdphap/mdphap.github.io/blob/f644c1ba6558635419dec24063b0a4512aff0b53/src/public/assets/images/Phieu%2004-VDTDNQ.png"><img>
                             `
                     },
                     {
