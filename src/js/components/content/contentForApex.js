@@ -136,7 +136,7 @@ export const contentsForApex = [
                                 </li>
                             </ul>
                             <br/>
-                            <img src="https://github.com/mdphap/mdphap.github.io/blob/f644c1ba6558635419dec24063b0a4512aff0b53/src/public/assets/images/Phieu%2004-VDTDNQ.png"><img>
+                            <img src="https://aodigy-6c-dev-ed--c.documentforce.com/servlet/servlet.ImageServer?id=0155g000000dXjT&amp;oid=00D5g000004jqkV&amp;lastMod=1647186022000">
                             `
                     },
                     {
