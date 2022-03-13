@@ -1,71 +1,204 @@
 export const contentsForApex = [
     {
         id: 'section-1',
-        title: 'Thống kê doanh nghiệp 1',
+        title: 'Điều tra vốn đầu tư quý',
         icon: ['fas', 'map-signs'],
-        description: 'Everything you need to know about how we format our code and the tools we use to ensure Code Readability.',
-        lastModifiedDate: '2021-10-25',
+        description: 'Phiếu này nhằm thu thập thông tin về vốn đầu tư thực hiện hàng quý của các loại hình doanh nghiệp nhà nước, doanh nghiệp ngoài nhà nước, doanh nghiệp có vốn đầu tư trực tiếp nước ngoài, hợp tác xã/liên hợp tác xã đang trong quá trình đầu tư chuẩn bị cho sản xuất kinh doanh hoặc đang hoạt động sản xuất kinh doanh được chọn vào mẫu điều tra.',
+        lastModifiedDate: '2022-03-07',
         sections: [
+            // article headline
             {
-                id: 'item-1-1', label: '1 Tab',
+                id: 'item-1-1', label: 'Điều tra vốn đầu tư quý',
                 elements: [
                     {
                         type: 'paragraph',
                         html:
-                            `We will be using <strong>1 Tab</strong> to maximise readability of our Apex code.
-                            Readability-wise 1 tab looks a lot like 4 spaces, but it will save us some
-                            character space and prevent us from reaching the <strong>100,000 character
-                            limit</strong> for Apex classes. Please note that this is strictly for Apex classes.`
+                            `
+                            <h1>
+                                <strong>Điều tra vốn đầu tư quý</strong>
+                            </h1>
+                            `
                     }
                 ]
             },
-            {id: 'item-1-2', label: 'Max Characters per Line',
+            {
+                id: 'item-1-2', label: '1. Phiếu số 01',
                 elements: [
                     {
                         type: 'paragraph',
                         html:
-                            `For each line of code, the maximum we want to set is <strong>120 characters.</strong>
-                            but as we are using tabs, tabs will look like 4 spaces and we therefore need to adjust that
-                            perspective such that we seemingly only reach 120 characters per line. The benefit of this 
-                            is that it will help us prevent too much horizontal scrolling when reading through other 
-                            people's code.
-                            <br/><br/>
-                            There are plugins that help us enforce this through providing visible vertical lines in
-                            which we will stop typing, if not already a feature of our IDE.`
-                    }
+                            `
+                            <strong>
+                                1. Phiếu số 01
+                            </strong>
+                            <p>
+                                Lập danh sách địa bàn
+                            </p>
+                            `
+                    },
                 ]
             },
-            {id: 'item-1-3', label: 'Editor Config',
+            {
+                id: 'item-1-3', label: '2. Phiếu số 02',
                 elements: [
                     {
                         type: 'paragraph',
-                        html: `We can manually override the <strong>.editorconfig</strong> file for VSCode and IntelliJ. To do so, create the following file in your project's root directory.`
-                    },
-                    {
-                        type: 'code-block',
-                        gist: '54f705da53dfe0c404b967dbe0b70964'
+                        html:
+                            `
+                            <strong>
+                                2. Phiếu số 02
+                            </strong>
+                            <p>
+                                Vốn đầu tư hộ
+                            </p>
+                            `
                     },
                 ]
             },
-            {id: 'item-1-4', label: 'Formatting Code',
+            {
+                id: 'item-1-4', label: '3. Phiếu số 03',
                 elements: [
                     {
-                        type: 'callout-block',
-                        blockType: 'info',
-                        label: 'VS Code + Apex PMD Plugin',
-                        html: `
-                            <p>For VS Code users, the hotkey is <strong>Ctrl + Shift + F</strong> while on the Apex class file.</br>
-                            Another method is to <strong>Cmd + Shift + P</strong> and choose Format Document.</p>
-                        `
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                3. Phiếu số 03
+                            </strong>
+                            <p>
+                                Vốn đầu tư trang trại
+                            </p>
+                            `
+                    },
+                ]
+            },
+            {
+                id: 'item-1-5', label: '4. Phiếu số 04',
+                elements: [
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                4. Phiếu số 04
+                            </strong>
+                            `
+                    }
+                ]
+            },
+            {
+                id: 'item-1-6', label: '4.1 Đối tượng áp dụng',
+                elements: [
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                4.1 Đối tượng áp dụng
+                            </strong>
+                            <p>
+                                Phiếu này nhằm thu thập thông tin về vốn đầu tư thực hiện hàng quý của các loại hình doanh nghiệp nhà nước, doanh nghiệp ngoài nhà nước, doanh nghiệp có vốn đầu tư trực tiếp nước ngoài, hợp tác xã/liên hợp tác xã đang trong quá trình đầu tư chuẩn bị cho sản xuất kinh doanh hoặc đang hoạt động sản xuất kinh doanh được chọn vào mẫu điều tra.
+                            </p>
+                            `
+                    }
+                ]
+            },
+            {
+                id: 'item-1-7', label: '4.2 Nội dung phiếu điều tra',
+                elements: [
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                4.2 Nội dung phiếu điều tra
+                            </strong>
+                            `
                     },
                     {
-                        type: 'callout-block',
-                        blockType: 'info',
-                        label: 'IntelliJ + IlluminatedCloud',
-                        html: `
-                            <p>For IntelliJ, the hotkey is <strong>Cmd + Option + L</strong> while on the Apex class file.<br/>
-                            Another method is to go to <strong>Menu Bar > Code > Reformat Code.</strong></p>
-                        `
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                4.2.1 Mẫu phiếu
+                            </strong>
+                            <p>
+                                Gồm 2 sheet
+                            </p>
+                            <ul>
+                                <li>
+                                    Sheet 1: Nguồn vốn và khoản mục đầu tư có phát sinh thực hiện
+                                </li>
+                                <li>
+                                    Sheet 2: Danh mục Công trình dự án trọng điểm
+                                </li>
+                            </ul>
+                            `
+                    },
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                4.2.2 Nội dung phiếu
+                            </strong>
+                            <ul>
+                                <li>
+                                    Nhằm trả lời cho câu hỏi: DN có phát sinh đầu tư trong quý hay không? Nếu có, đầu tư vào khoản mục nào, dùng nguồn vốn nào để thực hiện đầu tư và đầu tư vào ngành nào, ở tỉnh/thành nào?
+                                </li>
+                                <li>
+                                    Cụ thể, phiếu bao gồm 4 phần:
+                                    <ul>
+                                        <li>Phần A: Nguồn vốn dùng để thực hiện đầu tư</li>
+                                        <li>Phần B: Khoản mục có phát sinh đầu tư</li>
+                                        <li>Phần C: Mục đích đầu tư</li>
+                                        <li>Phần D: Tỉnh/thành phố có phát sinh đầu tư</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            `
+                    },
+                    {
+                        type: 'paragraph',
+                        html:
+                            `
+                            <strong>
+                                a. Phần A - Nguồn vốn
+                            </strong>
+                            <ul>
+                                <li>
+                                    Ngân sách nhà nước: Là vốn đầu tư do ngân sách nhà nước (gồm: ngân sách nhà nước Trung ương, ngân sách nhà nước địa phương) cấp cho doanh nghiệp để đầu tư theo quy định của pháp luật.
+                                </li>
+                                <li>
+                                    Trái phiếu Chính phủ
+                                </li>
+                            </ul>
+                            <p>
+                                Vốn đầu tư từ trái phiếu Chính phủ trong doanh nghiệp là vốn đầu tư từ trái phiếu
+                            </p>
+                            <p>
+                                Chính phủ cấp cho doanh nghiệp để đầu tư theo quy định của pháp luật.
+                            </p>
+                            <ul>
+                                <li>
+                                    Tín dụng đầu tư phát triển
+                                </li>
+                            </ul>
+                            <p>
+                                Vốn tín dụng đầu tư phát triển trong doanh nghiệp là vốn đầu tư từ nguồn vốn tín dụng đầu tư phát triển của nhà nước và vốn ODA Chính phủ cho vay lại mà doanh nghiệp được vay theo đúng quy định của pháp luật.
+                            </p>
+                            <ul>
+                                <li>
+                                    Vốn vay: Là số tiền đầu tư mà doanh nghiệp đi vay từ các tổ chức tín dụng trong nước (không bao gồm các tổ chức tín dụng đầu tư của Nhà nước), vay các ngân hàng ở nước ngoài, vay các tổ chức quốc tế, vay các tổ chức và cá nhân khác ở trong nước và ở nước ngoài, vay của công ty mẹ hoặc công ty anh (em) để thực hiện vốn đầu tư của doanh nghiệp.
+                                </li>
+                                <li>
+                                    Vốn tự có: Là vốn được hình thành từ vốn tích lũy thuộc sở hữu của doanh nghiệp được hình thành từ thanh lý tài sản, từ nguồn vốn khấu hao TSCĐ, từ các quỹ, từ hình thức huy động vốn cổ phần, vốn góp liên doanh của các bên đối tác liên doanh được doanh nghiệp trích ra để thực hiện vốn đầu tư của doanh nghiệp.
+                                </li>
+                                <li>
+                                    Vốn huy động từ các nguồn khác: Là nguồn vốn đóng góp tự nguyện, cho, biếu, tặng của các tổ chức, cá nhân trong và ngoài nước, nguồn vốn huy động ngoài các nguồn nêu trên được sử dụng để thực hiện vốn đầu tư của doanh nghiệp.
+                                </li>
+                            </ul>
+                            `
                     },
                 ]
             },
