@@ -31,7 +31,7 @@ export const contentsForApex = [
                         html:
                             `
                             <p>
-                                Lập danh sách địa bàn
+                                Lập danh sách địa bàn 
                             </p>
                             `
                     },
