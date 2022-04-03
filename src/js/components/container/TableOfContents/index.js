@@ -10,7 +10,7 @@ import { contentsForApex } from "../../content/contentForApex";
 const TableOfContents = () => (
   <React.Fragment>
     <PageHeader />
-    <PageContent title="Apex">
+    <PageContent title="Nghiệp vụ">
       {contentsForApex.map((content) => (
         <PageContentItem
           key={content.id}

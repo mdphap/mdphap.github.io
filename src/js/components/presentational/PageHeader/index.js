@@ -17,7 +17,7 @@ const PageHeader = () => (
                     </div>
                     <div className="main-search-box pt-3 d-block mx-auto">
                         <form className="search-form w-100">
-                            <input type="text" placeholder="Search the docs..." name="search"
+                            <input type="text" placeholder="Tra cứu..." name="search"
                                    className="form-control search-input"/>
                             <button type="submit" className="btn search-btn" value="Search">
                                 <FontAwesomeIcon icon={['fas','search']} fixedWidth />
